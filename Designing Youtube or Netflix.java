@@ -10,4 +10,10 @@ Features
 5)Add to watch list
 
 
+CDN(Content delivery network) Distrbuted servers : Reduce the number of hops and closer to User geogaphic location .
+If not present only then query the Back end server.
 
+Consistent Hashing: Consistent hashing is a very useful strategy for distributed caching system
+and DHTs(Distributed hash table). It allows us to distribute data across a cluster 
+in such a way that will minimize reorganization when nodes are added or removed.
+  Hence, the caching system will be easier to scale up or scale down.
