@@ -17,8 +17,9 @@ CDN(Content delivery network) Distrbuted servers : Reduce the number of hops and
 If not present only then query the Back end server.
 
 
-Fault Tolerance:
-We should use Consistent Hashing for distribution among database servers.
+Load Balancing & Fault Tolerance:
+We should use Consistent Hashing among our cache servers, which will also help in balancing the load between cache servers.
+ We should use Consistent Hashing for distribution among database servers as fault tolerence.
 Consistent hashing is a very useful strategy for distributed caching system
 and DHTs(Distributed hash table). It allows us to distribute data across a cluster 
 in such a way that will minimize reorganization when nodes are added or removed.
