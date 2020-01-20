@@ -9,6 +9,9 @@ Features
 4)share
 5)Add to watch list
 
+SCALE: Serve global users
+1)use caching , and use LRU eviction policy
+
 
 CDN(Content delivery network) Distrbuted servers : Reduce the number of hops and closer to User geogaphic location .
 If not present only then query the Back end server.
