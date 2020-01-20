@@ -9,7 +9,7 @@ Features
 4)share
 5)Add to watch list
 
-SCALE: Serve global users
+SCALE, hence use Cache: Serve global users
 1)use caching , and use LRU eviction policy
 
 
